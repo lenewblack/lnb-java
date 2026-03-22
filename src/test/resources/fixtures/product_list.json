@@ -1,0 +1,16 @@
+[
+  {
+    "id": "prod-001",
+    "reference": "REF-001",
+    "name": "Test Product 1",
+    "collection_id": "col-001",
+    "variants": []
+  },
+  {
+    "id": "prod-002",
+    "reference": "REF-002",
+    "name": "Test Product 2",
+    "collection_id": "col-001",
+    "variants": []
+  }
+]
