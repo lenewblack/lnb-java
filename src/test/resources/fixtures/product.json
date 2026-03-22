@@ -1,0 +1,22 @@
+{
+  "id": "prod-001",
+  "reference": "REF-001",
+  "name": "Test Product",
+  "description": "A test product",
+  "collection_id": "col-001",
+  "fabric_ids": ["fab-001"],
+  "sizing_id": "siz-001",
+  "variants": [
+    {
+      "id": "var-001",
+      "product_id": "prod-001",
+      "reference": "REF-001-BLK",
+      "color_code": "BLK",
+      "color_name": "Black",
+      "sizes": ["S", "M", "L"],
+      "image_urls": []
+    }
+  ],
+  "created_at": "2026-01-01T00:00:00Z",
+  "updated_at": "2026-01-01T00:00:00Z"
+}

@@ -1,0 +1,12 @@
+.gradle/
+build/
+*.class
+*.jar
+*.war
+*.ear
+.idea/
+*.iml
+*.ipr
+*.iws
+.DS_Store
+local.properties
