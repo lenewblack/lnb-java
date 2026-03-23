@@ -32,6 +32,9 @@ import com.lenewblack.wholesale.resource.*;
  */
 public final class LnbClient {
 
+    /** Current SDK version. Sent as the {@code User-Agent} header on every request. */
+    public static final String VERSION = "1.0.0";
+
     private final ProductResource products;
     private final OrderResource orders;
     private final CollectionResource collections;
@@ -65,6 +68,11 @@ public final class LnbClient {
 
     public static LnbClientBuilder builder() {
         return new LnbClientBuilder();
+    }
+
+    /** Returns the current SDK version string. */
+    public static String getVersion() {
+        return VERSION;
     }
 
     public ProductResource products() { return products; }
