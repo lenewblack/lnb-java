@@ -1,12 +1,16 @@
-.gradle/
-build/
-*.class
-*.jar
-*.war
-*.ear
+# OS / Editor
+.DS_Store
 .idea/
 *.iml
 *.ipr
 *.iws
-.DS_Store
-local.properties
+
+# Claude
+.claude/
+
+# Gradle
+.gradle/
+build/
+
+# Compiled output
+*.class
