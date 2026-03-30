@@ -2,7 +2,7 @@
 
 ## Project
 
-Java SDK for the Le New Black Wholesale v2 API. Published at `lenewblack/lnb-java`.
+Java SDK for the Le New Black Wholesale v2 API. Published at [lenewblack/lnb-java](https://github.com/lenewblack/lnb-java).
 
 - Java 11+, Gradle (Kotlin DSL), OkHttp3 ^4.x, Gson ^2.x
 - Tests: JUnit 5 + Mockito + MockWebServer, in `src/test`
